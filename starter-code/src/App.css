@@ -1,3 +1,8 @@
+body{
+  background: #EFEFEF;
+
+}
+
 .App {
   text-align: center;
 }
@@ -25,4 +30,66 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#contact-table{
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+#contact-table > thead > tr > th{
+  text-align: center;
+  height: 10%;
+  /* width: 30%; */
+}
+
+#contact-table > tbody > tr > td{
+  text-align: center;
+  height: 10%;
+  /* width: 30%; */
+}
+
+.celeb-picture{
+  width: 10%;
+  border-radius: 5px;
+}
+
+#button-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto 15px auto;
+  width: 60%;
+}
+
+#button-wrapper > button{
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 0px;
+  width: 250px;
+  font-size: 1.2rem;
+  transition: .5s;
+}
+
+#button-wrapper > button:hover{
+  background: #EFEFEF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table button{
+  font-weight: bolder;
+  background: rgb(255, 101, 101);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: .25s;
+}
+
+table button:hover{
+  background: rgb(255, 70, 70);
 }
